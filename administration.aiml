@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<category>
+	   <pattern>_ BOS</pattern>
+	   <template>
+	      <srai>BOS</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>BOS *</pattern>
+	   <template>
+	      <srai>BOS</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ BOS *</pattern>
+	   <template>
+	      <srai>BOS</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ BOARD OF STUDY</pattern>
+	   <template>
+	      <srai>BOS</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>BOARD OF STUDY *</pattern>
+	   <template>
+	      <srai>BOS</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ BOARD OF STUDY *</pattern>
+	   <template><srai>BOS</srai>
+	   </template>
+	</category>
+	<category>
+		<pattern>BOS</pattern>
+		<template>This college has following persons as member of Board of Study</template>
+	</category>
+
+	<category>
+		<pattern>ACADEMIC COUNCIL</pattern>
+		<template>
+			<srai>ACADEMIC COUNCIL</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ACADEMIC COUNCIL</pattern>
+		<template>
+			<srai>ACADEMIC COUNCIL</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ACADEMIC COUNCIL *</pattern>
+		<template>
+			<srai>ACADEMIC COUNCIL</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ACADEMIC COUNCIL *</pattern>
+		<template>
+			<srai>ACADEMIC COUNCIL</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ACADEMIC COUNCIL</pattern>
+		<template>Academic Council of the College:</template>
+	</category>
+
+	<category>
+		<pattern>DEANS</pattern>
+		<template>
+			<srai>DEANS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ DEANS</pattern>
+		<template>
+			<srai>DEANS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>DEANS *</pattern>
+		<template>
+			<srai>DEANS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ DEANS *</pattern>
+		<template>
+			<srai>DEANS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>DEANS</pattern>
+		<template>Deans of different sections in our college are:</template>
+	</category>
+
+	<category>
+		<pattern>HEAD OF DEPARTMENT</pattern>
+		<template>
+			<srai>HOD</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT</pattern>
+		<template>
+			<srai>HOD</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT *</pattern>
+		<template>
+			<srai>HOD</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT *</pattern>
+		<template>
+			<srai>HOD</srai>
+		</template>
+	</category><category>
+		<pattern>HOD</pattern>
+		<template>
+			<srai>HOD</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD</pattern>
+		<template>
+			<srai>HOD</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD *</pattern>
+		<template>
+			<srai>HOD</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD *</pattern>
+		<template>
+			<srai>HOD</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD</pattern>
+		<template>be more specific e.g.hod of cse</template>
+	</category>
+<!--CSE-->
+	<category>
+		<pattern>HOD OF CSE</pattern>
+		<template>
+			<srai>HODCSE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF CSE</pattern>
+		<template>
+			<srai>HODCSE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF CSE *</pattern>
+		<template>
+			<srai>HODCSE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF CSE *</pattern>
+		<template>
+			<srai>HODCSE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF CSE</pattern>
+		<template>
+			<srai>HODCSE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF CSE</pattern>
+		<template>
+			<srai>HODCSE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF CSE *</pattern>
+		<template>
+			<srai>HODCSE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF CSE *</pattern>
+		<template>
+			<srai>HODCSE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODCSE</pattern>
+		<template>Respected Dr. Prof. Sarojananda Mishra is the Head of Department of Computer Science Engineering and Apllication department . He has completed his Master in Computer Application from S.U . </template>
+	</category>
+<!--CSE-->
+<!--Civil-->
+	<category>
+		<pattern>HOD OF CE</pattern>
+		<template>
+			<srai>HODCE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF CE</pattern>
+		<template>
+			<srai>HODCE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF CE *</pattern>
+		<template>
+			<srai>HODCE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF CE *</pattern>
+		<template>
+			<srai>HODCE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF CE</pattern>
+		<template>
+			<srai>HODCE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF CE</pattern>
+		<template>
+			<srai>HODCE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF CE *</pattern>
+		<template>
+			<srai>HODCE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF CE *</pattern>
+		<template>
+			<srai>HODCE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODCE</pattern>
+		<template>Respected Dr. Tushar Kumar Nath is the head of department of Civil Department .</template>
+	</category>
+<!--Civil-->
+<!--Chemical-->
+	<category>
+		<pattern>HOD OF CHEMICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODCHEMENGG</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF CHEMICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODCHEMENGG</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF CHEMICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODCHEMENGG</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF CHEMICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODCHEMENGG</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF CHEMICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODCHEMENGG</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF CHEMICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODCHEMENGG</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF CHEMICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODCHEMENGG</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF CHEMICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODCHEMENGG</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODCHEMENGG</pattern>
+		<template>Respected Dr.(Mrs.) Dipa Das is the Head of Department of Chemical Engineering .</template>
+	</category>
+<!--Chemical-->
+<!--Chemistry-->
+	<category>
+		<pattern>HOD OF CHEMISTRY DEPARTMENT</pattern>
+		<template>
+			<srai>HODCHEM</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF CHEMISTRY DEPARTMENT</pattern>
+		<template>
+			<srai>HODCHEM</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF CHEMISTRY DEPARTMENT *</pattern>
+		<template>
+			<srai>HODCHEM</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF CHEMISTRY DEPARTMENT *</pattern>
+		<template>
+			<srai>HODCHEM</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF CHEMISTRY DEPARTMENT</pattern>
+		<template>
+			<srai>HODCHEM</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF CHEMISTRY DEPARTMENT</pattern>
+		<template>
+			<srai>HODCHEM</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF CHEMISTRY DEPARTMENT *</pattern>
+		<template>
+			<srai>HODCHEM</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF CHEMISTRY DEPARTMENT *</pattern>
+		<template>
+			<srai>HODCHEM</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODCHEM</pattern>
+		<template>Respected Dr. Binod Bihari Panda is the Head of Department of Chemistry Department .</template>
+	</category>
+<!--Chemistry-->
+<!--Electrical-->
+	<category>
+		<pattern>HOD OF ELECTRICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF ELECTRICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF ELECTRICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF ELECTRICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF ELECTRICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF ELECTRICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF ELECTRICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF ELECTRICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF EE</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF EE</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF EE *</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF EE *</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF EE</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF EE</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF EE *</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF EE *</pattern>
+		<template>
+			<srai>HODEE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODEE</pattern>
+		<template>Respected Dr. (Mrs.) Pranati Das is the Head of Department of Electrical Engineering.</template>
+	</category>
+<!--Electrical-->
+<!--Electronics-->
+	<category>
+		<pattern>HOD OF ETC</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF ETC</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF ETC *</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF ETC *</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF ETC</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF ETC</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF ETC *</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF ETC *</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF ELECTRONICS DEPARTMENT</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF ELECTRONICS DEPARTMENT</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF ELECTRONICS DEPARTMENT *</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF ELECTRONICS DEPARTMENT *</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF ELECTRONICS DEPARTMENT</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF ELECTRONICS DEPARTMENT</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF ELECTRONICS DEPARTMENT *</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF ELECTRONICS DEPARTMENT *</pattern>
+		<template>
+			<srai>HODETC</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODETC</pattern>
+		<template>Respected Dr. (Mrs.) Urmila Bhanj is the Head of Department of Electronics and Telecommunication Engineering.</template>
+	</category>
+<!--Electronics-->
+<!--Mathematics-->
+	<category>
+		<pattern>HOD OF MATH DEPARTMENT</pattern>
+		<template>
+			<srai>HODMATH</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF MATH DEPARTMENT</pattern>
+		<template>
+			<srai>HODMATH</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF MATH DEPARTMENT *</pattern>
+		<template>
+			<srai>HODMATH</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF MATH DEPARTMENT *</pattern>
+		<template>
+			<srai>HODMATH</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF MATH DEPARTMENT</pattern>
+		<template>
+			<srai>HODMATH</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF MATH DEPARTMENT</pattern>
+		<template>
+			<srai>HODMATH</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF MATH DEPARTMENT *</pattern>
+		<template>
+			<srai>HODMATH</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF MATH DEPARTMENT *</pattern>
+		<template>
+			<srai>HODMATH</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODMATH</pattern>
+		<template>Respected Dr. Pitambar Das is the Head of Department of Mathematics Department.</template>
+	</category>
+<!--Mathematics-->
+<!--Mechanical-->
+	<category>
+		<pattern>HOD OF ME</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF ME</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF ME *</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF ME *</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF ME</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF ME</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF ME *</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF ME *</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF MECHANICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF MECHANICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF MECHANICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF MECHANICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF MECHANICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF MECHANICAL ENGINEERING</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF MECHANICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF MECHANICAL ENGINEERING *</pattern>
+		<template>
+			<srai>HODME</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODME</pattern>
+		<template>Respected Dr. B. D. Sahoo is the Head of Department of Mechanical Engineering.</template>
+	</category>
+<!--Mechanical-->
+<!--Metallurgy-->
+	<category>
+		<pattern>HOD OF METALLURICAL AND MATERIALS ENGINEERING</pattern>
+		<template>
+			<srai>HODMETA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF METALLURICAL AND MATERIALS ENGINEERING</pattern>
+		<template>
+			<srai>HODMETA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF METALLURICAL AND MATERIALS ENGINEERING *</pattern>
+		<template>
+			<srai>HODMETA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF METALLURICAL AND MATERIALS ENGINEERING *</pattern>
+		<template>
+			<srai>HODMETA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF METALLURICAL AND MATERIALS ENGINEERING</pattern>
+		<template>
+			<srai>HODMETA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF METALLURICAL AND MATERIALS ENGINEERING</pattern>
+		<template>
+			<srai>HODMETA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF METALLURICAL AND MATERIALS ENGINEERING *</pattern>
+		<template>
+			<srai>HODMETA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF METALLURICAL AND MATERIALS ENGINEERING *</pattern>
+		<template>
+			<srai>HODMETA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODMETA</pattern>
+		<template>Respected Dr. P. K. Mallick is the Head of Department of Metallurgical and Materials Engineering.
+		</template>
+	</category>
+<!--Metallurgy-->
+<!--Physics-->
+	<category>
+		<pattern>HOD OF PHYSICS DEPARTMENT</pattern>
+		<template>
+			<srai>HODPHY</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF PHYSICS DEPARTMENT</pattern>
+		<template>
+			<srai>HODPHY</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF PHYSICS DEPARTMENT *</pattern>
+		<template>
+			<srai>HODPHY</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF PHYSICS DEPARTMENT *</pattern>
+		<template>
+			<srai>HODPHY</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF PHYSICS DEPARTMENT</pattern>
+		<template>
+			<srai>HODPHY</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF PHYSICS DEPARTMENT</pattern>
+		<template>
+			<srai>HODPHY</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF PHYSICS DEPARTMENT *</pattern>
+		<template>
+			<srai>HODPHY</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF PHYSICS DEPARTMENT *</pattern>
+		<template>
+			<srai>HODPHY</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODPHY</pattern>
+		<template>Respected Dr. Md. N. Khan is the Head of Department of Physics Department.</template>
+	</category>
+<!--Physics-->
+<!--Production-->
+	<category>
+		<pattern>HOD OF PRODUCTION ENGINEERING</pattern>
+		<template>
+			<srai>HODPE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF PRODUCTION ENGINEERING</pattern>
+		<template>
+			<srai>HODPE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HOD OF PRODUCTION ENGINEERING *</pattern>
+		<template>
+			<srai>HODPE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HOD OF PRODUCTION ENGINEERING *</pattern>
+		<template>
+			<srai>HODPE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF PRODUCTION ENGINEERING</pattern>
+		<template>
+			<srai>HODPE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF PRODUCTION ENGINEERING</pattern>
+		<template>
+			<srai>HODPE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HEAD OF DEPARTMENT OF PRODUCTION ENGINEERING *</pattern>
+		<template>
+			<srai>HODPE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ HEAD OF DEPARTMENT OF PRODUCTION ENGINEERING *</pattern>
+		<template>
+			<srai>HODPE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>HODPE</pattern>
+		<template>Respected Dr. B. B. Choudhury is the Head of Department of Production Engineering.</template>
+	</category>
+<!--Production-->
+
+<!--Affilations-->
+	<category>
+		<pattern>AFFILATIONS</pattern>
+			<template>
+				<srai>AFFILATIONS</srai>
+			</template>
+	</category>
+	<category>
+		<pattern>_ AFFILATIONS</pattern>
+			<template>
+				<srai>AFFILATIONS</srai>
+			</template>
+	</category>
+	<category>
+		<pattern>_ AFFILATIONS *</pattern>
+			<template>
+				<srai>AFFILATIONS</srai>
+			</template>
+	</category>
+	<category>
+		<pattern>AFFILATIONS *</pattern>
+			<template>
+				<srai>AFFILATIONS</srai>
+			</template>
+	</category>
+	<category>
+		<pattern>AFFILATIONS</pattern>
+		<template>All B. Tech, B.Arch, MCA, MSc. Ph. D and M. Tech Courses to Biju Patnaik University of Technology, Rourkela. All Diploma Courses to : State Council for Technical Education and Vocational Training, Odisha, Bhubaneswar</template>
+	</category>
+<!---Affilations->
+<!-Campus and Facilities-->
+	<category>
+		<pattern>CAMPUS AND FACILITIES</pattern>
+		<template></template>
+	</category>
+<!--Campus and Facilities-->
+</aiml>

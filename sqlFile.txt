@@ -1,0 +1,50 @@
+create table usertable (username varchar2(50), userid varchar2(25) primary key, password varchar2(50), useremail varchar2(75));
+create table loginhistory (userid varchar2(25) references usertable(userid), dt date);
+create table logouthistory (userid varchar2(25) references usertable(userid), dt date);
+create table querieshistory (userid varchar2(25) references usertable(userid), query varchar2(250), dt date);
+create table suggestionhistory (userid varchar2(25) references usertable(userid), suggestedquery varchar2(250), dt date);
+create or replace function matchpassword (uid in varchar2, pwd in varchar2) return varchar2 as result varchar2(25);
+	pw usertable.password%type;
+	begin
+	result:='false';
+	select password into pw from usertable where userid=uid;
+	if pw=pwd then
+		result:='true';
+	end if;
+	return result;
+end;
+/
+create or replace function findusername (uid in varchar2) return varchar2 as uname varchar2(50);
+	begin
+	select username into uname from usertable where userid=uid;
+	return uname;
+end;
+/
+create or replace procedure savelogindetails (uid in varchar2) as
+	dt varchar2(25);
+	begin
+	select to_char(sysdate,'DD-MON-YYYY HH:MI:SS') into dt from dual;
+	insert into loginhistory values (uid, TO_DATE(dt, 'DD-MON-YYYY HH:MI:SS'));
+	end;
+/
+create or replace procedure savelogoutdetails (uid in varchar2) as
+	dt varchar2(25);
+	begin
+	select to_char(sysdate,'DD-MON-YYYY HH:MI:SS') into dt from dual;
+	insert into logouthistory values (uid, TO_DATE(dt, 'DD-MON-YYYY HH:MI:SS'));
+	end;
+/
+create or replace procedure savequerydetails (uid in varchar2, qry in varchar2) as
+	dt varchar2(25);
+	begin
+	select to_char(sysdate,'DD-MON-YYYY HH:MI:SS') into dt from dual;
+	insert into querieshistory values (uid, qry, TO_DATE(dt, 'DD-MON-YYYY HH:MI:SS'));
+	end;
+/
+create or replace procedure savesuggestiondetails (uid in varchar2, qry in varchar2) as
+	dt varchar2(25);
+	begin
+	select to_char(sysdate,'DD-MON-YYYY HH:MI:SS') into dt from dual;
+	insert into suggestionhistory values (uid, qry, TO_DATE(dt, 'DD-MON-YYYY HH:MI:SS'));
+	end;
+/

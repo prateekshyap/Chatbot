@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<category>
+	   <pattern>_ BOG</pattern>
+	   <template>
+	      <srai>BOG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>BOG *</pattern>
+	   <template>
+	      <srai>BOG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ BOG *</pattern>
+	   <template>
+	      <srai>BOG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ BOARD OF GOVERNORS</pattern>
+	   <template>
+	      <srai>BOG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>BOARD OF GOVERNORS *</pattern>
+	   <template>
+	      <srai>BOG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ BOARD OF GOVERNORS *</pattern>
+	   <template>
+	      <srai>BOG</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>BOG</pattern>
+		<template>This college has following persons as member of BOG</template>
+	</category>
+
+	<category>
+		<pattern>_ CHAIRMAN</pattern>
+	   <template>
+	      <srai>CHAIRMAN</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>CHAIRMAN *</pattern>
+	   <template>
+	      <srai>CHAIRMAN</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ CHAIRMAN *</pattern>
+	   <template>
+	      <srai>CHAIRMAN</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>CHAIRMAN</pattern>
+		<template>Prof. Damodar Acharya, Ex-Director, IITKGP, Ex-Chairman, AICTE and founding Vice Chancellor BPUT</template>
+	</category>
+
+	<category>
+		<pattern>_ SECRETARY</pattern>
+	   	<template>
+	      <srai>SECRETARY</srai>
+	   	</template>
+	</category>
+
+	<category>
+	   <pattern>SECRETARY *</pattern>
+	   <template>
+	      <srai>SECRETARY</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ SECRETARY *</pattern>
+	   <template>
+	      <srai>SECRETARY</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>SECRETARY</pattern>
+		<template>Dr. S. Mohanta, Director, IGIT</template>
+	</category>
+
+	<category>
+		<pattern>_ MEMBERS</pattern>
+	   	<template>
+	      <srai>MEMBERS</srai>
+	   	</template>
+	</category>
+
+	<category>
+	   <pattern>MEMBERS *</pattern>
+	   <template>
+	      <srai>MEMBERS</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ MEMBERS *</pattern>
+	   <template>
+	      <srai>MEMBERS</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>MEMBERS</pattern>
+		<template>Prof. Barada Kanta Mishra, Dr. Binaya Kumar Das, Prof. Suresh Chandra Patnaik, Prof. Bibhu Prasad Panigrahi, Prof. Gopendra Kishore Roy, Prof. Sujit Kumar Biswas, Secretary. SD and TE Department, Vice Chancellor, BPUT</template>
+	</category>
+</aiml>

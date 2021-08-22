@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	   <pattern>_ AFFILIATIONS</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>AFFILIATIONS *</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ AFFILIATIONS *</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ AFFILIATED</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>AFFILIATED *</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ AFFILIATED *</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ AFFILIATION</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>AFFILIATION *</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ AFFILIATION *</pattern>
+	   <template>
+	      <srai>AFFL</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>AFFL</pattern>
+		<template>B.Tech, B.Arch, MCA, MSc., Ph.D and M.Tech courses to BPUT. Diploma courses to SCTEVT.</template>
+	</category>
+
+	<category>
+    	<pattern>START GOOGLE</pattern>
+    	<template><url>https://www.google.com</url></template>
+	</category>
+
+	
+</aiml>

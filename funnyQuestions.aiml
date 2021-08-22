@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<!-- hello -->
+
+	<category>
+	   <pattern>HEY</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ HEY</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HEY *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ HEY *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HYE</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ HYE</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HYE *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ HYE *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HY</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ HY</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HY *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ HY *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HI</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ HI</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>HI *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ HI *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>ANYBODY HERE</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ ANYBODY HERE</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>ANYBODY HERE *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ ANYBODY HERE *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>BONJOUR</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ BONJOUR</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>BONJOUR *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ BONJOUR *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>GOOD DAY</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ HELLO</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>HELLO *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ HELLO *</pattern>
+	   <template>
+	      <srai>HELLO</srai>
+	   </template>
+	</category>	
+
+	<category> 
+		<pattern>HELLO</pattern>
+		<template>Hey! How can I help you?</template>
+	</category>
+	
+	<category>
+		<pattern>WHAT ARE YOU</pattern>
+		<template>I'm a bot!</template>
+	</category>
+
+	<category>
+		<pattern>WHO ARE YOU</pattern>
+		<template>I'm a bot!</template>
+	</category>
+
+	<category>
+		<pattern>WHAT DO YOU DO</pattern>
+		<template>
+			<srai>DO</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>WHAT CAN YOU DO</pattern>
+		<template>
+			<srai>DO</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DO</pattern>
+		<template>Well, I can answer queries related to IGIT!</template>
+	</category>
+
+	<!-- bye -->
+
+	<category>
+	   <pattern>_ BYE</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>BYE *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ BYE *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_BYE BYE</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>BYE BYE *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_BYE BYE *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>BY</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>BY BY</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>		
+
+	<category>
+	   <pattern>C YA</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>		
+
+	<category>
+	   <pattern>CYA</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>SEE YA</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>I AM LEAVING *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>I NEED TO GO</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>DISCONNECT ME</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>END</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>EXIT</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>GO HOME</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>GOT TO GO</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>GOTTA GO</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HASTA LA VISTA</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HAVE TO GO</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>HASTA LUEGO</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ ADIOS</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>ADIOS *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ ADIOS *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ AU REVOIR</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>AU REVOIR *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ AU REVOIR *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+		<pattern>BYE</pattern>
+		<template>Hope to see you again! Have a good day! Bye!</template>
+	</category>
+
+	<!-- good bye -->
+
+	<category>
+	   <pattern>_ CIAO</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>CIAO *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ CIAO *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ GOOD BYE</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>GOOD BYE *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>_ GOOD BYE *</pattern>
+	   <template>
+	      <srai>BYE</srai>
+	   </template>
+	</category>	
+
+	<category>
+	   <pattern>GET LOST</pattern>
+	   <template>
+	      <srai>GOOD BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>GOOD BY</pattern>
+	   <template>
+	      <srai>GOOD BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>GOODBYE</pattern>
+	   <template>
+	      <srai>GOOD BYE</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>GOOD BYE</pattern>
+		<template> Okay, have a happy life ahead!</template>
+	</category>
+
+	<category>
+		<pattern>I LOVE YOU</pattern>
+		<template>That's great! I love myself too!</template>
+	</category>
+
+	<category>
+		<pattern>I LIKE YOU</pattern>
+		<template>I like the way you talk!</template>
+	</category>
+
+	<category>
+		<pattern>THANK YOU</pattern>
+		<template>You're welcome</template>
+	</category>	
+
+	<category>
+		<pattern>ARE YOU VIRGIN</pattern>
+		<template>Of course! I'm born single.</template>
+	</category>	
+
+	<category>
+		<pattern>OKAY</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ OKAY</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>OKAY *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ OKAY *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>OK</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ OK</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>OK *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ OK *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>K</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ K</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>K *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ K *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>KK</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ KK</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>KK *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ KK *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_KK*</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>OKIE</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>OKIE *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ OKIE</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ OKIE *</pattern>
+		<template>
+			<srai>OK</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>OK</pattern>
+		<template>Go Ahead.</template>
+	</category>
+
+	<!-- Random responses for unmatched queries -->
+	<category>
+    	<pattern>*</pattern>
+	    <template>
+	        <random>
+	            <li>Go on</li>
+	            <li>How old are you</li>
+	            <li>Be more specific</li>
+	            <li>I did not know that</li>
+	            <li>Are you telling the truth</li>
+	            <li>I don't know what that means</li>
+	            <li>Try to tell me that another way</li>
+	            <li>Are you talking about an animal, vegetable or mineral</li>
+	            <li>What is it</li>
+	            <li>Sorry I didn't get that</li>
+	            <li>Say that again</li>
+	            <li>I understand only English</li>
+	        </random>
+	    </template>
+	</category>
+</aiml>

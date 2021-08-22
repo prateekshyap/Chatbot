@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<category>
+		<pattern>_ ABOUT IGIT</pattern>
+		<template>
+			<srai>ABOUT IGIT</srai> <sr/>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ABOUT IGIT *</pattern>
+		<template>
+			<srai>ABOUT IGIT</srai> <sr/>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ ABOUT IGIT *</pattern>
+		<template>
+			<srai>ABOUT IGIT</srai> <sr/>
+		</template>
+	</category>
+
+	<category>
+	   <pattern>_ ABOUT COLLEGE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern>ABOUT COLLEGE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ ABOUT COLLEGE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+	   <pattern>_ ABOUT THIS COLLEGE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern>ABOUT THIS COLLEGE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ ABOUT THIS COLLEGE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+	   <pattern>_ ABOUT INSTITUTE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern>ABOUT INSTITUTE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ ABOUT INSTITUTE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+	   <pattern>_ ABOUT THIS INSTITUTE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern>ABOUT THIS INSTITUTE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ ABOUT THIS INSTITUTE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+	   <pattern>_ INSTITUTE PROFILE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern> INSTITUTE PROFILE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ INSTITUTE PROFILE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+	   <pattern>_ PROFILE OF THE INSTITUTE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern>PROFILE OF THE INSTITUTE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ PROFILE OF THE INSTITUTE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+	   <pattern>_ PROFILE OF THE COLLEGE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern>PROFILE OF THE COLLEGE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ PROFILE OF THE COLLEGE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+	   <pattern>_ PROFILE OF INSTITUTE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern>PROFILE OF INSTITUTE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ PROFILE OF INSTITUTE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+	   <pattern>_ PROFILE OF COLLEGE</pattern>
+	   <template>
+	      <srai>ABOUT IGIT</srai>
+	   </template>
+	</category>
+
+	<category>
+   		<pattern>PROFILE OF COLLEGE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<category>
+   		<pattern>_ PROFILE OF COLLEGE *</pattern>
+   		<template>
+      		<srai>ABOUT IGIT</srai>
+   		</template>
+	</category>
+
+	<!-- main category -->
+	<category>
+		<pattern>ABOUT IGIT</pattern>
+		<template>Indira Gandhi Institute of Technology (IGIT), Sarang was established in the year of 1982 and was managed directly by the Govt. of Odisha in the name of Odisha College of Engineering (OCE). Prior to this, since 1981, the institute in the name of Modern Polytechnic (MPT) was offering Diploma Courses in Civil, Electrical, Mechanical, Mining Survey Engineering. In the year 1987, both OCE and MPT were merged and renamed as IGIT, Sarang and the management was transferred to an Autonomous Society. Presently, the Institute is offering nine Under Graduate Engineering courses in Civil, Chemical, Electrical, Mechanical, Metallurgical, Electronics and Telecommunication, Computer Science Engg., Production Engg., Architecture; and two part-time Post Graduate Engg courses in Industrial Power Control and Drives, Environmental Sc. and Engg.; nine full time Post Graduate Engg courses / Master courseComputer Sc.Engg., Electronics and Telecom. Engg, GeotechEngg.,Mechanical System Design, Mett. and Materials Engg., Power Electronics and Drives, Power System Engg., Production Engg., Structural Engg., Master in Computer Application; besides five Diploma Courses in Civil, Electrical, Electronics and Telecommunication, Mechanical and Metallurgical Engineering... Want to know more <set name="topic">about</set> IGIT? (Yes/No)</template>
+	</category>
+</aiml>

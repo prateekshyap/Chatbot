@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!--Computer Science-->
+	<category>
+		<pattern>PROFESSORS OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSORS OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROFESSORS OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSORS OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>PROFESSOR OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSOR OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROFESSOR OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSOR OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		
+		<category>
+		<pattern>PROF. OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROF. OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROF. OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROF. OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+
+		<category>
+		<pattern>PROFESSORS OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSORS OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROFESSORS OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSORS OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>PROFESSOR OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSOR OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROFESSOR OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSOR OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		
+		<category>
+		<pattern>PROF. OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROF. OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROF. OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROF. OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+
+		<category>
+		<pattern>PROFESSORS OF CSE</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSORS OF CSE</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROFESSORS OF CSE *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSORS OF CSE *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>PROFESSOR OF CSE</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSOR OF CSE</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROFESSOR OF CSE *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROFESSOR OF CSE *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		
+	<category>
+		<pattern>PROF. OF CSE</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROF. OF CSE</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROF. OF CSE *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ PROF. OF CSE *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMPUTER SCIENCE DEPARTMENT PROFESSORS</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ COMPUTER SCIENCE DEPARTMENT PROFESSORS</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>COMPUTER SCIENCE DEPARTMENT PROFESSORS *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ COMPUTER SCIENCE DEPARTMENT PROFESSORS *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CS DEPARTMENT PROFESSORS</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CS DEPARTMENT PROFESSORS</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>CS DEPARTMENT PROFESSORS *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CS DEPARTMENT PROFESSORS *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CSE PROFESSORS</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CSE PROFESSORS</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>CSE PROFESSORS *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CSE PROFESSORS *</pattern>
+		<template>
+			<srai>PROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>PROFFCS</pattern>
+		<template>Dr. Sarojananda Mishra (HOD,CSE)</template>
+	</category>
+	
+	<category>
+		<pattern>ASSISTANT PROFESSORS OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSORS OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSISTANT PROFESSORS OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSORS OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSISTANT PROFESSOR OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSOR OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSISTANT PROFESSOR OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSOR OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		
+		<category>
+		<pattern>ASST. PROF. OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASST. PROF. OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASST. PROF. OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASST. PROF. OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+
+		<category>
+		<pattern>ASSISTANT PROFESSORS OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSORS OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSISTANT PROFESSORS OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSORS OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSISTANT PROFESSOR OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSOR OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSISTANT PROFESSOR OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSOR OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		
+		<category>
+		<pattern>ASST. PROF. OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASST. PROF. OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASST. PROF. OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASST. PROF. OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+
+		<category>
+		<pattern>ASSISTANT PROFESSORS OF CSE</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSORS OF CSE</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSISTANT PROFESSORS OF CSE *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSORS OF CSE *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSISTANT PROFESSOR OF CSE</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSOR OF CSE</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSISTANT PROFESSOR OF CSE *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSISTANT PROFESSOR OF CSE *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASST. PROF. OF CSE</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASST. PROF. OF CSE</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASST. PROF. OF CSE *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASST. PROF. OF CSE *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMPUTER SCIENCE DEPARTMENT ASSISTANT PROFESSORS</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ COMPUTER SCIENCE DEPARTMENT ASSISTANT PROFESSORS</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>COMPUTER SCIENCE DEPARTMENT ASSISTANT PROFESSORS *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ COMPUTER SCIENCE DEPARTMENT ASSISTANT PROFESSORS *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CS DEPARTMENT ASSISTANT PROFESSORS</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CS DEPARTMENT ASSISTANT PROFESSORS</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>CS DEPARTMENT ASSISTANT PROFESSORS *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CS DEPARTMENT ASSISTANT PROFESSORS *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CSE ASSISTANT PROFESSORS</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CSE ASSISTANT PROFESSORS</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>CSE ASSISTANT PROFESSORS *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CSE ASSISTANT PROFESSORS *</pattern>
+		<template>
+			<srai>ASPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASPROFFCS</pattern>
+		<template>Assistant Professors of Computer Science Department are: 1) Dr. Biswanath Sethi , 2) Mr. Dillip Kumar Swain , 3) Mr. Medimi Srinivas , 4) Dr. Niroj Kumar Pani , 5) Mr. Priyabrata Sahu , 6) Mr. Sanjay Kumar Patra 
+		</template>
+	</category>
+
+	<category>
+		<pattern>ASSOCIATE PROFESSORS OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSORS OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROFESSORS OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSORS OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSOCIATE PROFESSOR OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSOR OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROFESSOR OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSOR OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSOCIATE PROF. OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROF. OF COMPUTER SCIENCE DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROF. OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROF. OF COMPUTER SCIENCE DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+
+		<category>
+		<pattern>ASSOCIATE PROFESSORS OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSORS OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROFESSORS OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSORS OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSOCIATE PROFESSOR OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSOR OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROFESSOR OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSOR OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSOCIATE PROF. OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROF. OF CS DEPARTMENT</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROF. OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROF. OF CS DEPARTMENT *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+
+		<category>
+		<pattern>ASSOCIATE PROFESSORS OF CSE</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSORS OF CSE</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROFESSORS OF CSE *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSORS OF CSE *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSOCIATE PROFESSOR OF CSE</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSOR OF CSE</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROFESSOR OF CSE *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROFESSOR OF CSE *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>ASSOCIATE PROF. OF CSE</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROF. OF CSE</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASSOCIATE PROF. OF CSE *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ ASSOCIATE PROF. OF CSE *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMPUTER SCIENCE DEPARTMENT ASSOCIATE PROFESSORS</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ COMPUTER SCIENCE DEPARTMENT ASSOCIATE PROFESSORS</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>COMPUTER SCIENCE DEPARTMENT ASSOCIATE PROFESSORS *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ COMPUTER SCIENCE DEPARTMENT ASSOCIATE PROFESSORS *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CS DEPARTMENT ASSOCIATE PROFESSORS</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CS DEPARTMENT ASSOCIATE PROFESSORS</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>CS DEPARTMENT ASSOCIATE PROFESSORS *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CS DEPARTMENT ASSOCIATE PROFESSORS *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CSE ASSOCIATE PROFESSORS</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CSE ASSOCIATE PROFESSORS</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>CSE ASSOCIATE PROFESSORS *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>_ CSE ASSOCIATE PROFESSORS *</pattern>
+		<template>
+			<srai>ASTPROFFCS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ASTPROFFCS</pattern>
+		<template>Associate Professors of Computer Science Department are : 1) Dr. Srinivas Sethi , 2) Dr.(Mrs.) Sasmita Mishra</template>
+	</category>
+<!--Computer Science-->
+</aiml>

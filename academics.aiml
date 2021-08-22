@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<category>
+	   <pattern>_ COURSES</pattern>
+	   <template>
+	      <srai>COURSES</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>COURSES *</pattern>
+	   <template>
+	      <srai>COURSES</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ COURSES *</pattern>
+	   <template>
+	      <srai>COURSES</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>COURSES</pattern>
+		<template>Under Graduation, Post Graduation, Ph.D, Diploma, VET.</template>
+	</category>
+
+	<category>
+	   <pattern>_ UG</pattern>
+	   <template>
+	      <srai>UG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>UG *</pattern>
+	   <template>
+	      <srai>UG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ UNDER GRADUATION *</pattern>
+	   <template>
+	      <srai>UG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ UNDER GRADUATION</pattern>
+	   <template>
+	      <srai>UG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>UNDER GRADUATION *</pattern>
+	   <template>
+	      <srai>UG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ UNDER GRADUATION *</pattern>
+	   <template>
+	      <srai>UG</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>UG</pattern>
+		<template>Civil Engineering, Mechanical Engineering, Electrical Engineering, CHemical Engineering, Metallurgical and Materials Engineering, Electronics an Telecom. Engineering (Under Self Financinng Scheme), Computer Science and Engineering (Under Self Financing Scheme), Production Engineering, Architecture.</template>
+	</category>
+
+	<category>
+	   <pattern>_ PG</pattern>
+	   <template>
+	      <srai>PG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>PG *</pattern>
+	   <template>
+	      <srai>PG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ PG *</pattern>
+	   <template>
+	      <srai>PG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ POST GRADUATION</pattern>
+	   <template>
+	      <srai>PG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>POST GRADUATION *</pattern>
+	   <template>
+	      <srai>PG</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ POST GRADUATION *</pattern>
+	   <template>
+	      <srai>PG</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>PG</pattern>
+		<template>3 years Master in Computer Application(MCA) course .2 years M.Sc programme has Applied Physics , Applied Chemistry and Applied Mathematics . Under M.Tech course Chemical Engineering,Computer Science Engineering,Computer Science and Information Security,Electronics and Telecommunication Engineering,Energy Conservation and Management,Energy System Engineering,Geotechnical Engineering,Industrial Metallurgy,Mechanical System Design,Metallurgical and Materials Engineering,Power Electronics and Drives,Power System Engineering,Production Enggineering,Structural Engg,Thermal Engineering,Transportation Engineering . Beside these part time course consisting of 5 semesters under Environmental Science and Engineering(Civil Engineering) , Industrial Power Control and Drives (Electrical Engineering) are also there .</template>
+	</category>
+
+	<category>
+	   <pattern>_ PHD</pattern>
+	   <template>
+	      <srai>PHD</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>PHD *</pattern>
+	   <template>
+	      <srai>PHD</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ PHD *</pattern>
+	   <template>
+	      <srai>PHD</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>PHD</pattern>
+		<template>Civil Engineering,Mechanical Engineering,Electrical Engineering,Chemical Engineering,Metallurgical and Materials Engineering,Electronics and Telecom. Engineering,Computer Science Engineering</template>
+	</category>
+
+	<category>
+	   <pattern>_ DIPLOMA</pattern>
+	   <template>
+	      <srai>DIPLOMA</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>DIPLOMA *</pattern>
+	   <template>
+	      <srai>DIPLOMA</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ DIPLOMA *</pattern>
+	   <template>
+	      <srai>DIPLOMA</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>DIPLOMA</pattern>
+		<template>Civil Engineering, Mechanical Engineering, Electrical Engineering, Metallurgical Engineering, Electronics an Telecom. Engineering .</template>
+	</category>
+	
+</aiml>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	   <pattern>STUDENT LIFE</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENT LIFE</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>STUDENT LIFE *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENT LIFE *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENTS LIFE</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>STUDENTS LIFE *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENTS LIFE *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>STUDENT FACILITY</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENT FACILITY</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>STUDENT FACILITY *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENT FACILITY *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENT FACILITIES</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>STUDENT FACILITIES *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENT FACILITIES *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>STUDENTS FACILITY</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENTS FACILITY</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>STUDENTS FACILITY *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENTS FACILITY *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENTS FACILITIES</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>STUDENTS FACILITIES *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ STUDENTS FACILITIES *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ FACILITY FOR STUDENT</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>FACILITY FOR STUDENT *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ FACILITY FOR STUDENT *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ FACILITIES FOR STUDENT</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>FACILITIES FOR STUDENT *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ FACILITIES FOR STUDENT *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ FACILITY FOR STUDENTS</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>FACILITY FOR STUDENTS *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ FACILITY FOR STUDENTS *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ FACILITIES FOR STUDENTS</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>FACILITIES FOR STUDENTS *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ FACILITIES FOR STUDENTS *</pattern>
+	   <template>
+	      <srai>STUDLIFE</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>STUDLIFE</pattern>
+		<template>IGIT Health Club, Dispensary, Robotics, Cultural, Athletics, Literature, NCC and Nss, Society for Physical Education and Recreation, Alumni</template>
+	</category>
+
+	<category>
+	   <pattern>_ IGIT HEALTH CLUB</pattern>
+	   <template>
+	      <srai>IHC</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>IGIT HEALTH CLUB *</pattern>
+	   <template>
+	      <srai>IHC</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ IGIT HEALTH CLUB *</pattern>
+	   <template>
+	      <srai>IHC</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>IHC</pattern>
+		<template>The IGIT HEALTH CLUB was inaugurated on 3rd March 2008 in order to keep the students, staff and their wards physically fit. The club at present is well equipped with modern apparatus for three segments such as Cardio Vascular efficiency, Weight Training (Shape Up in Style) and General Fitness. Registered members of the Club are entitled to avail the facilities on payment of nominal user fee. The Winter Session of the Club is 1st Aug. to 31st Jan. Where as the Summer Session starts from 1st Feb. and ends on 31st July each year. Enrolment procedures for respective sessions are to be over by 20th of July and January. The Club is managed by the Society of Physical Education and Recreation at present.</template>
+	</category>
+
+	<category>
+	   <pattern>_ DISPENSARY</pattern>
+	   <template>
+	      <srai>DISPENSARY</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>DISPENSARY *</pattern>
+	   <template>
+	      <srai>DISPENSARY</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ DISPENSARY *</pattern>
+	   <template>
+	      <srai>DISPENSARY</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>DISPENSARY</pattern>
+		<template>It is located near Rohini Bhawan. Facilities available- OPD consultation, Dispensing of medicines, First-aid, Laboratory Facilities, Health Education, Ambulance(24*7)</template>
+	</category>
+
+	
+	<category>
+	   <pattern>CULTURAL</pattern>
+	   <template>
+	      <srai>CULTURAL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ CULTURAL</pattern>
+	   <template>
+	      <srai>CULTURAL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>CULTURAL *</pattern>
+	   <template>
+	      <srai>CULTURAL</srai>
+	   </template>
+	</category>
+
+	<category>
+	   <pattern>_ CULTURAL *</pattern>
+	   <template>
+	      <srai>CULTURAL</srai>
+	   </template>
+	</category>
+
+	<category>
+		<pattern>CULTURAL</pattern>
+		<template>The Cultural Association plays a pivotal role in exploring the multi dimensional talents of the students and in shaping their personality. The Association is run by nominated student secretaries and representatives under the supervision of faculty members. The cultural Association remains busy throughout the year in several activities such as Freshers’ welcome, invited talks by luminaries, annual dramatic and literary competitions and programmes. The Association is also responsible for publication of Institute’s annual magazine “Technoquest” and the Souvenir of Final year students “Memoirs” alongwith a quarterly news letter “IGIT-HERALD”</template>
+	</category>
+</aiml>

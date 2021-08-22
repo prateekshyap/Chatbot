@@ -1,0 +1,16 @@
+<aiml version="1.0.1">
+	<category>
+		<pattern>LOAD AIML BOT</pattern>
+		<template>
+			<learn>affiliations.aiml</learn>
+			<learn>academics.aiml</learn>
+			<learn>studentslife.aiml</learn>
+			<learn>funnyQuestions.aiml</learn>
+			<learn>instituteProfile.aiml</learn>
+			<learn>bogMembers.aiml</learn>
+			<learn>administration.aiml</learn>
+			<learn>faculties.aiml</learn>
+			<learn>general.aiml</learn>
+		</template>
+	</category>
+</aiml>
