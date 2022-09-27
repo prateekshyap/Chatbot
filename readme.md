@@ -35,4 +35,4 @@ A simple command based chatbot developed for institutional queries. User suggest
 15. Remember your _userid_. Because it is randomly generated. You can't change it.
 
 # Report
-Report can be found [here](./chatbotreport.pdf)
+Report can be found [here](./chatbotreport.pdf).
