@@ -10,7 +10,7 @@ A simple command based chatbot developed for institutional queries. User suggest
 
 3. Type ```python -m pip install cx_Oracle --upgrade pip```.
 
-4. Then download the file available [here]("https://download.oracle.com/otn_software/nt/instantclient/19600/instantclient-basic-windows.x64-19.6.0.0.0dbru.zip"). Extract it to "C:/oracle"
+4. Then download the file available [here](https://download.oracle.com/otn_software/nt/instantclient/19600/instantclient-basic-windows.x64-19.6.0.0.0dbru.zip). Extract it to "C:/oracle"
 
 5. In system environment variables find out the "PATH" variable. Then add "C:/oracle/instantclient" path to it. Make sure you add it on the top.
 
